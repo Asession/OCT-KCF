@@ -21,8 +21,8 @@ bczhang@buaa.edu.cn
 
 ________________
 ### References
-[1] B. Zhang, Z. Li, X. Cao, Q. Ye, C. Chen, L. Shen, A. Perina, and R. Ji.
-    "Output Constraint Transfer for Kernelized Correlation Filter in Tracking."
+[1] B. Zhang, Z. Li, X. Cao, Q. Ye, C. Chen, L. Shen, A. Perina, and R. Ji,
+    "Output Constraint Transfer for Kernelized Correlation Filter in Tracking," IEEE Transactions on Systems, Man, and Cybernetics:system, 2016.
 
 [2] J. Henriques, R. Caseiro, P. Martins, and J. Batista.
     "High-Speed Tracking with Kernelized Correlation Filters."
