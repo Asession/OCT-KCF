@@ -73,7 +73,7 @@ function [positions, time] = OCT_KCF(video_path, img_files, pos, target_sz, ...
                 hat_y_t = max_res(frame); %maximal response of current frame (denoted "hat_y^t" in the paper)
 
                 if (max_res(frame) < 0.25 && (temp_init > 0.35))||...
-                        (abs((hat_y_t - miu_t) / sigma_t) >= threshold_g)  %Eq.26 in the paper
+                        (((hat_y_t - miu_t) / sigma_t) < -threshold_g)  %Eq.26 in the paper
                     
                     % coarse and fine process to precisely localize the target for sample selection in a local region
                     coarse_regions = coarse_sampler(pos, 0.8 * (sqrt(0.025 / max_res(frame) * target_sz(1)^2 + 0.25 * target_sz(2)^2)), 5, 16);
