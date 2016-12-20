@@ -13,6 +13,13 @@ ________________
 2) Choose sequence (only "Jogging-1" is included).
 
 ________________
+### Notes
+According to the visual tracker benchmark, the start frame of video “Tiger1” should be 6. So we added some code on the 56th line of the script “load_video_info.m”.
+
+To get the results consistent with our paper, you need to download the latest version of our source code, and modify the “groundtruth_rect.txt” file of “Tiger1” by deleting the first 5 lines.
+
+
+________________
 ### Contact
 
 Baochang Zhang
